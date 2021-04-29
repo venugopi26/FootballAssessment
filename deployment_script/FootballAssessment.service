@@ -1,0 +1,13 @@
+sudo cat /etc/systemd/system/FootballAssessment.service
+
+
+[Unit]
+Description=footballapi
+
+[Service]
+User=ubuntu
+ExecStart=/home/ubuntu/servicejars/FootballAssessment.jar
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target

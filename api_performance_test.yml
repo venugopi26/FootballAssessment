@@ -1,0 +1,23 @@
+execution:
+- concurrency: 50
+  hold-for: 5m
+  ramp-up: 1m
+  scenario: footballapi_example
+  
+scenarios:
+  footballapi_example:
+    retrieve-resources: false                    
+    requests:             
+        - url: 'http://localhost:8080/get_standing?country=England&league=Championship&team=Watford'
+          method: GET
+          headers:  
+            Content-Type: application/json
+reporting:
+- module: final-stats
+- module: blazemeter
+
+settings:
+  check-interval: 5s
+  default-executor: jmeter
+
+provisioning: local

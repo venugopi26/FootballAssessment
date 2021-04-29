@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "football",
+      "type": "com.football.assessment.common.ConfigProperties",
+      "sourceType": "com.football.assessment.common.ConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "api.key",
+      "type": "java.lang.String",
+      "description": "A description for 'api.key'"
+    },
+    {
+      "name": "base.url",
+      "type": "java.lang.String",
+      "description": "A description for 'base.url'"
+    },
+    {
+      "name": "football.apikey",
+      "type": "java.lang.String",
+      "sourceType": "com.football.assessment.common.ConfigProperties"
+    },
+    {
+      "name": "football.baseurl",
+      "type": "java.lang.String",
+      "sourceType": "com.football.assessment.common.ConfigProperties"
+    },
+    {
+      "name": "football.countries",
+      "type": "java.lang.String",
+      "sourceType": "com.football.assessment.common.ConfigProperties"
+    },
+    {
+      "name": "football.leagues",
+      "type": "java.lang.String",
+      "sourceType": "com.football.assessment.common.ConfigProperties"
+    },
+    {
+      "name": "football.standings",
+      "type": "java.lang.String",
+      "sourceType": "com.football.assessment.common.ConfigProperties"
+    }
+  ],
+  "hints": []
+}

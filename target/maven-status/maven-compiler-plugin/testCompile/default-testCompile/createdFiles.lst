@@ -1,0 +1,5 @@
+com\football\assessment\AssessmentApplicationTests.class
+com\football\assessment\util\test\HttpUtilTest.class
+com\football\assessment\service\test\FootballServiceMockTest.class
+com\football\assessment\service\test\FootballMethodTest.class
+com\football\assessment\service\test\FootballServiceTest.class
